@@ -1,0 +1,12 @@
+{
+  "uploadOnSave": false,
+  "deleteLocal": false,
+  "hostname": "192.168.90.249",
+  "target": "/home/admin/WorkLogManage",
+  "ignore": [
+    "node_modules/**"
+  ],
+  "username": "admin",
+  "password": "123456",
+  "transport": "scp"
+}
