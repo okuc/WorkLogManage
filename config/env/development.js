@@ -1,4 +1,4 @@
 module.exports = {
-  port: 7101,
+  port: process.env.PORT || '3000',
   mongodb: 'mongodb://localhost/WorkLogManage'
 }
