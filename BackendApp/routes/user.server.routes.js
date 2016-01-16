@@ -4,10 +4,8 @@ var router = express.Router();
 
   router.get('/user', UsersController.list)
   router.post('/user', UsersController.create);
+  router.post('/login', UsersController.userLogin);
 
-  router.get('/user/:nid')
-    .get(UsersController.get);
-
-  router.param('nid', UsersController.getById);
+  router.get('/user/:nid',UsersController.getByUserId);
 
 module.exports = router;
